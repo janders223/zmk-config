@@ -24,7 +24,7 @@
                         bindings = <
    &bt BT_CLR    &trans &kp N1 &kp N2  &kp N3     &trans              &kp PIPE  &kp LBRC  &kp RBRC   &kp AMPS  &kp STAR &kp BSPC
    &bt BT_SEL 0  &trans &kp N4 &kp N5  &kp N6     &trans              &kp CARET &kp LPAR  &kp RPAR   &kp MINUS &kp EXCL &kp EQUAL
-   &bt BT_SEL 1  &trans &kp N7 &kp N8  &kp N9     &trans              &kp TILDE &kp LBKT  &kp RBKT   &kp DLLR  &kp HASH &kp PLUS
+   &bt BT_SEL 1  &trans &kp N7 &kp N8  &kp N9     &kp N0              &kp TILDE &kp LBKT  &kp RBKT   &kp DLLR  &kp HASH &kp PLUS
                                &trans  &kp LSHIFT &trans              &trans    &kp RSHFT &trans
                         >;
                 };
