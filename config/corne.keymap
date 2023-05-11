@@ -22,7 +22,7 @@
                 };
                 lower_layer {
                         bindings = <
-   &kp TAB    &kp N1       &kp N2 &kp N3  &kp N4 &kp N5          &kp PIPE  &kp LRBC &kp RBRC &kp AMPS  &kp STAR &kp BSPC
+   &kp TAB    &kp N1       &kp N2 &kp N3  &kp N4 &kp N5          &kp PIPE  &kp LBRC &kp RBRC &kp AMPS  &kp STAR &kp BSPC
    &bt BT_CLR &bt BT_SEL 0 &trans &trans  &trans &trans          &kp CARET &kp LPAR &kp RPAR &kp MINUS &kp EXCL &kp EQUAL
    &kp LSHFT  &trans       &trans &trans  &trans &trans          &kp TILDE &kp LBKT &kp RBKT &kp DLLR  &kp HASH &kp PLUS
                                   &kp RET &mo 1  &kp LGUI        &kp BSPC  &mo 2    &kp SPACE
