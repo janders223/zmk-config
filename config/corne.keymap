@@ -14,26 +14,26 @@
                 label = "Colemak-DHm";
                 default_layer {
                         bindings = <
-   &kp TAB         &kp Q  &kp W      &kp F   &kp P      &kp B               &kp J     &kp L     &kp U     &kp Y     &kp SEMI &kp BSPC
-   &mt LCTRL ESC   &kp A  &kp R      &kp S   &kp T      &kp G               &kp M     &kp N     &kp E     &kp I     &kp O    &kp SQT
-   &kp LSHFT       &kp Z  &kp X      &kp C   &kp D      &kp V               &kp K     &kp H     &kp COMMA &kp DOT   &kp FSLH &kp RSHFT
-                                     &mo 1   &kp LGUI   &kp RET             &kp SPACE &kp BSPC  &mo 2
+   &kp TAB       &kp Q  &kp W  &kp F   &kp P      &kp B               &kp J     &kp L     &kp U     &kp Y     &kp SEMI &kp BSPC
+   &mt LCTRL ESC &kp A  &kp R  &kp S   &kp T      &kp G               &kp M     &kp N     &kp E     &kp I     &kp O    &kp SQT
+   &kp LSHFT     &kp Z  &kp X  &kp C   &kp D      &kp V               &kp K     &kp H     &kp COMMA &kp DOT   &kp FSLH &kp RSHFT
+                               &mo 1   &kp LGUI   &kp RET             &kp SPACE &kp BSPC  &mo 2
                         >;
                 };
                 lower_layer {
                         bindings = <
-   &bt BT_CLR      &trans &kp N1     &kp N2  &kp N3     &trans              &kp PIPE  &kp LBRC  &kp RBRC   &kp AMPS  &kp STAR &kp BSPC
-   &bt BT_SEL 0    &trans &kp N4     &kp N5  &kp N6     &trans              &kp CARET &kp LPAR  &kp RPAR   &kp MINUS &kp EXCL &kp EQUAL
-   &bt BT_SEL 1    &trans &kp N7     &kp N8  &kp N9     &kp N0              &kp GRAVE &kp LBKT  &kp RBKT   &kp DLLR  &kp HASH &kp PLUS
-                                     &trans  &kp LSHIFT &kp LALT            &kp HASH  &kp RSHFT &kp AT
+   &bt BT_CLR    &trans &kp N1 &kp N2  &kp N3     &trans              &kp PIPE  &kp LBRC  &kp RBRC   &kp AMPS  &kp STAR &kp BSPC
+   &bt BT_SEL 0  &trans &kp N4 &kp N5  &kp N6     &trans              &kp CARET &kp LPAR  &kp RPAR   &kp MINUS &kp EXCL &kp EQUAL
+   &bt BT_SEL 1  &trans &kp N7 &kp N8  &kp N9     &kp N0              &kp GRAVE &kp LBKT  &kp RBKT   &kp DLLR  &kp HASH &kp PLUS
+                               &trans  &kp LSHIFT &kp LALT            &kp HASH  &kp RSHFT &kp AT
                         >;
                 };
                 raise_layer {
                         bindings = <
-   &rgb_ug RGB_TOG &bl BL_TOG &kp N1 &kp N2  &kp N3     &trans              &kp PIPE  &kp LBRC  &kp RBRC   &kp AMPS  &kp STAR &kp BSPC
-   &rgb_ug RGB_HUI &bl BL_INC &kp N4 &kp N5  &kp N6     &trans              &kp CARET &kp LPAR  &kp RPAR   &kp MINUS &kp EXCL &kp EQUAL
-   &rgb_ug RGB_HUD &bl BL_DEC &kp N7 &kp N8  &kp N9     &kp N0              &kp GRAVE &kp LBKT  &kp RBKT   &kp DLLR  &kp HASH &kp PLUS
-                                     &trans  &kp LSHIFT &kp LALT            &kp HASH  &kp RSHFT &kp AT
+   &trans        &trans &kp N1 &kp N2  &kp N3     &trans              &kp PIPE  &kp LBRC  &kp RBRC   &kp AMPS  &kp STAR &kp BSPC
+   &trans        &trans &kp N4 &kp N5  &kp N6     &trans              &kp CARET &kp LPAR  &kp RPAR   &kp MINUS &kp EXCL &kp EQUAL
+   &trans        &trans &kp N7 &kp N8  &kp N9     &kp N0              &kp GRAVE &kp LBKT  &kp RBKT   &kp DLLR  &kp HASH &kp PLUS
+                               &trans  &kp LSHIFT &kp LALT            &kp HASH  &kp RSHFT &kp AT
                         >;
                 };
         };
